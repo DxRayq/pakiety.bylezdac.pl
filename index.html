@@ -1,13 +1,155 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bylezdac - Pakiety dostępu</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>szkola.bylezdac.pl</h1>
+            <p class="subtitle">Wybierz pakiet dostosowany do Twoich potrzeb</p>
+        </div>
+
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <div class="card-content">
+                    <h3>Pakiet Polecenie</h3>
+                    <p class="description">Podstawowy pakiet z dostępem do poleceń</p>
+                    <div class="price">
+                        <span class="amount">3</span>
+                        <span class="currency">PLN</span>
+                        <span class="period">/do końca roku szkolnego</span>
+                    </div>
+                    <ul class="features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Dostęp do poleceń zadań
+                        </li>
+                    </ul>
+                    <button class="cta-button">Wybierz pakiet</button>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-content">
+                    <h3>Pakiet HTML</h3>
+                    <p class="description">Pakiet z dostępem do poleceń i rozwiązań HTML</p>
+                    <div class="price">
+                        <span class="amount">5</span>
+                        <span class="currency">PLN</span>
+                        <span class="period">/do końca roku szkolnego</span>
+                    </div>
+                    <ul class="features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Dostęp do poleceń zadań
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Rozwiązania HTML
+                        </li>
+                    </ul>
+                    <button class="cta-button">Wybierz pakiet</button>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-content">
+                    <h3>Pakiet CSS</h3>
+                    <p class="description">Pakiet z dostępem do poleceń, HTML i CSS</p>
+                    <div class="price">
+                        <span class="amount">10</span>
+                        <span class="currency">PLN</span>
+                        <span class="period">/do końca roku szkolnego</span>
+                    </div>
+                    <ul class="features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Dostęp do poleceń zadań
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Rozwiązania HTML
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Rozwiązania CSS
+                        </li>
+                    </ul>
+                    <button class="cta-button">Wybierz pakiet</button>
+                </div>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-content">
+                    <h3>Pakiet JS</h3>
+                    <p class="description">Pełny pakiet ze wszystkimi rozwiązaniami</p>
+                    <div class="price">
+                        <span class="amount">15</span>
+                        <span class="currency">PLN</span>
+                        <span class="period">/do końca roku szkolnego</span>
+                    </div>
+                    <ul class="features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Dostęp do poleceń zadań
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Rozwiązania HTML
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Rozwiązania CSS
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            Rozwiązania JavaScript
+                        </li>
+                    </ul>
+                    <button class="cta-button">Wybierz pakiet</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Wszystkie pakiety zapewniają dostęp do końca bieżącego roku szkolnego</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
