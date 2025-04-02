@@ -15,10 +15,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Proszę podać adres email Google (@gmail.com)');
             return;
         }
-
-        // Here you would typically send the data to a server
-        console.log('Dane formularza:', formData);
-        alert('Dziękujemy za rejestrację! Wkrótce otrzymasz dalsze instrukcje na podany adres email.');
-        form.reset();
     });
 });
