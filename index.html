@@ -32,7 +32,7 @@
                             Dostęp do poleceń zadań
                         </li>
                     </ul>
-                    <button class="cta-button">Wybierz pakiet</button>
+                    <button class="cta-button" data-package="Pakiet Polecenie">Wybierz pakiet</button>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                             Rozwiązania HTML
                         </li>
                     </ul>
-                    <button class="cta-button">Wybierz pakiet</button>
+                    <button class="cta-button" data-package="Pakiet HTML">Wybierz pakiet</button>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                             Rozwiązania CSS
                         </li>
                     </ul>
-                    <button class="cta-button">Wybierz pakiet</button>
+                    <button class="cta-button" data-package="Pakiet CSS">Wybierz pakiet</button>
                 </div>
             </div>
 
@@ -140,9 +140,35 @@
                             Rozwiązania JavaScript
                         </li>
                     </ul>
-                    <button class="cta-button">Wybierz pakiet</button>
+                    <button class="cta-button" data-package="Pakiet JS">Wybierz pakiet</button>
                 </div>
             </div>
+        </div>
+
+        <div class="registration-section">
+            <h2>Formularz rejestracji</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="fullName">Imię i nazwisko</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adres email (konto Google)</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="package">Wybrany pakiet</label>
+                    <select id="package" name="package" required>
+                        <option value="">Wybierz pakiet</option>
+                        <option value="Pakiet Polecenie">Pakiet Polecenie - 3 PLN</option>
+                        <option value="Pakiet HTML">Pakiet HTML - 5 PLN</option>
+                        <option value="Pakiet CSS">Pakiet CSS - 10 PLN</option>
+                        <option value="Pakiet JS">Pakiet JS - 15 PLN</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-button">Zarejestruj się</button>
+                <p class="form-note">UWAGA! Musisz być zalogowany na tym koncie Google na komputerze w sali Staniowa</p>
+            </form>
         </div>
 
         <div class="footer">
