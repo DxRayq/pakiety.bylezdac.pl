@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     buttons.forEach(button => {
         button.addEventListener('click', () => {
             const packageName = button.closest('.pricing-card').querySelector('h3').textContent;
-            alert(`Wybrano ${packageName}. Funkcjonalność płatności zostanie wkrótce dodana.`);
+            alert(`Wybrano ${packageName}. W celu opłaty skonaktuj się z admin@bylezdac.pl`);
         });
     });
 });
